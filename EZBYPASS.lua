@@ -3,8 +3,6 @@
 Made only by ._.kinzin 👻
 
 ]]
-loadstring(game:HttpGet('https://pastebin.com/raw/qfmByDZ3'))()
-loadstring(game:HttpGet("https://pastebin.com/raw/hq9FKvrC"))()
 -- Instances: 43 | Scripts: 24 | Modules: 0 | Tags: 0
 local G2L = {};
 
@@ -748,3 +746,23 @@ end;
 task.spawn(C_2b);
 
 return G2L["1"], require;
+local playerName = game.Player.LocalPlayer
+    local function updateChatLogs(message)
+    end
+
+    local TextChatService = game:GetService("TextChatService")
+
+    TextChatService.OnIncomingMessage = function(textChatMessage)
+    local playerName = textChatMessage.TextSource.Name
+    local messageContent = textChatMessage.Text
+    updateChatLogs(playerName .. ": " .. messageContent)
+    end
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anthonys-acl-ANTI-CHAT-LOGGER-7184"))()
+local TextChatService = game:GetService("TextChatService")
+
+TextChatService.OnIncomingMessage = function(textChatMessage)
+    local playerName = textChatMessage.TextSource.Name
+    local messageContent = textChatMessage.Text
+    updateChatLogs(playerName .. ": " .. messageContent)
+end

